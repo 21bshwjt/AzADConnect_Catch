@@ -2,7 +2,7 @@ using namespace System.Net
 param($Request, $TriggerMetadata)
 
 [void](Import-Module Pswritehtml -Force)
-$getempdata = Get-Content C:\Projects\newcontoso\database\employees.json | ConvertFrom-Json
+$getempdata = Get-Content .\database\employees.json | ConvertFrom-Json
 
 $body = New-HTML -TitleText "Identity" {
     New-HTMLSection -HeaderText '<h1>Test</h1>' {

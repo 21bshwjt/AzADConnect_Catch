@@ -16,7 +16,7 @@ $body = html -Content {
         }
         
         Div -Class 'container' -Content {
-            $employees = Get-Content C:\Projects\newcontoso\database\employees.json | ConvertFrom-Json
+            $employees = Get-Content .\database\employees.json | ConvertFrom-Json
             Table -class 'table' -Content {
                 Thead -Content {
                     Th -Content "First Name"

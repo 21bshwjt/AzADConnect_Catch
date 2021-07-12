@@ -1,7 +1,7 @@
 [
         {
-            "firstname": "Chendrayan",
-            "lastname": "Venkatesan",
+            "firstname": "Biswajit",
+            "lastname": "Biswas",
             "dateofjoining": "01/01/2005",
             "department": "IT",
             "manager": "YTD",
@@ -9,12 +9,22 @@
             "city": "Bangalore"
         },
         {
-            "firstname": "Deepak",
-            "lastname": "Dhami",
+            "firstname": "Samarth",
+            "lastname": "Rao",
             "dateofjoining": "01/03/2005",
             "department": "IT",
             "manager": "YTD",
-            "country": "India",
-            "city": "Bangalore"
+            "country": "US",
+            "city": "Sunnyvale"
+        },        
+        {
+            "firstname": "Sunil",
+            "lastname": "Chauhan",
+            "dateofjoining": "01/03/2005",
+            "department": "IT",
+            "manager": "YTD",
+            "country": "US",
+            "city": "Sunnyvale"
         }
+
     ]

@@ -5,8 +5,8 @@ param($Request, $TriggerMetadata)
 $getempdata = Get-Content .\database\employees.json | ConvertFrom-Json
 
 $body = New-HTML -TitleText "Identity" {
-    New-HTMLSection -HeaderText '<h1>Test</h1>' {
-        New-HTMLContent -HeaderText "Biswajit" -CanCollapse -HeaderTextColor Black -HeaderBackGroundColor PaleGoldenrod {
+    New-HTMLSection -HeaderText '<h1>Contoso</h1>' {
+        New-HTMLContent -HeaderText "<h3>Team Info</h3>" -CanCollapse -HeaderTextColor Black -HeaderBackGroundColor PaleGoldenrod {
             New-HTMLTable -Title "Copper" -DataTable $getempdata -HideFooter -PagingOptions @(50, 100, 500, 1000) {
                 #TableConditionalFormatting -Name 'KerbType' -ComparisonType number -Operator eq -Value 0x12 -Color Black -BackgroundColor PaleGreen
                 #TableConditionalFormatting -Name 'KerbType' -ComparisonType string -Operator eq -Value '0xffffffff' -Color White -BackgroundColor Red

@@ -3,8 +3,16 @@
 - **Given some catches on Azure AD connect those will be useful during troubleshooting & Sync issue**.
 
 ### Active Mode vs. Stagging Mode
-- Active Mode - Import, Export & Synchronization.
+- Active Mode (Default) - Import, Export & Synchronization.
 - Stagging Mode - Import & Synchronization.
+
+#### Why do we need Stagging mode
+- High availability.
+- Test and deploy new configuration changes.
+- Introduce a new server and decommission the old.
+
+#### Microsoft Entra Connect: Staging server and disaster recovery
+- [Microsoft Entra Connect: Staging server and disaster recovery](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-sync-staging-server)
 
 ### Source Anchor/mS-DS-ConsistencyGuid
 - '**mS-DS-ConsistencyGuid**' AD attribute is synced with Azure AD user's '**ImmutableId**'.

@@ -10,7 +10,8 @@
 - [Deepdive](https://www.youtube.com/watch?v=e9f0VXNqCuY)
 
 ####
-'''powershell
+
+```powershell
 # Get ImmutableId
 # Install-Module MSOnline -Force -Verbose 
 $Msolcred = Get-credential

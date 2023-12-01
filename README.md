@@ -1,6 +1,6 @@
 # Azure AD Connect - Catches
 - Azure AD Connect is a Microsoft tool designed to synchronize on-premises Active Directory (AD) identities with Azure Active Directory (Azure AD). This synchronization enables a single identity to be used for accessing both on-premises and cloud-based resources, providing a more seamless and integrated experience for users.
-- **Given some catches on Azure AD connect those will be useful during troubleshooting & Sync issue.
+- **Given some catches on Azure AD connect those will be useful during troubleshooting & Sync issue**.
 
 ### Active Mode vs. Stagging Mode
 - Active Mode - Import, Export & Synchronization.
